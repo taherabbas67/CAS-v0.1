@@ -9,17 +9,19 @@
     <link rel="stylesheet" href="style.css">
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <script src="script.js"></script>
+    <link rel="icon" type="image" href="/img/logo.png">
 </head>
 
 <body>
-    <nav>
+    <nav id="home">
         <div class="casLogoDiv">
             <img src="/img/logo.png" alt="logo" id="casLogo">
             <p class="title1">Center for Autonomous Systems</p>
         </div>
         <div class="links">
+            <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="">Projects</a>
+            <a href="#projectDiv">Projects</a>
             <a href="">Workshops</a>
             <a href="">Team</a>
             <a href="">Contact</a>
@@ -40,6 +42,34 @@
     </div>
     <div class="coverimagesDiv">
         <img src="/img/2.jpg" alt="" class="coverImages">
+    </div>
+
+    <!-- projects section -->
+    <div id="projectDiv">
+        <h2>Projects</h2>
+        <div class="projectCardsDiv">
+            <!-- project card 1 -->
+            <div class="projectCard">
+                <img src="/img/project1.png" alt="Autonomous vehicle" class="cardImages">
+                <p class="projectCardHeading">Autonomous Vehicle</p>
+                <p class="projectDesc">The Centre brings together students and faculties from across disciplines such as
+                    Engineering, Management and Science to work collaboratively on the next generation of autonomous
+                    systems such as robotics, autonomous underwater, ground and aerial vehicles and more!</p>
+            </div>
+            <!-- project card 2 -->
+            <div class="projectCard">
+                <img src="/img/project1.png" alt="Autonomous vehicle" class="cardImages">
+                <p class="projectCardHeading">Autonomous Vehicle</p>
+                <p class="projectDesc">The Centre brings together students and faculties from across disciplines such as
+                    Engineering, Management and Science to work collaboratively on the next generation of autonomous
+                    systems such as robotics, autonomous underwater, ground and aerial vehicles and more!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- workshops section -->
+    <div class="workshopDiv">
+        <h2>Workshops</h2>
     </div>
 </body>
 
