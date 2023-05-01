@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+/* NavBar style starts */
+nav{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+}
+
+.casLogoDiv{
+    width: 30%;
+}
+
+#casLogo{
+    width: 110px;
+    height: auto;
+}
+#gitamLogo{
+    width: 160px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 40px;
+}
+
+.title1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    margin-left: 40px;
+    font-size: 18px;
+}
+nav a:hover{
+    color: #8C2B30;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 65%;
+}
+
+/* Navbar styles ends */
+
+/* page content starts */
+#about{
+    background-color: #8C2B30;
+    padding: 100px;
+}
+
+
+.p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+
+.btn-1{
+    background-color: #8C2B30;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-color: white;
+    border-radius: 100px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.btn-1:hover{
+    background-color: white;
+    color: #8C2B30;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+/* images section starts */
+
+.coverimagesDiv{
+    width: 100%;
+    height: 70vh;
+}
+
+.coverImages{
+    width: 100%;
+    height: auto;
+}
