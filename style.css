@@ -184,6 +184,7 @@ h2{
     display: flex;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 10px;
     justify-content: center;
 }
 
@@ -218,7 +219,65 @@ h2{
 }
 
 .t1{
-    color: #8C2B30;
+    color: black;
     font-size: 22px;
     margin-top: 10px;
+}
+
+
+/* team div section starts here  */
+#teamDiv{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* director card starts */
+.directorCardDiv{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.directorCardDiv:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.DCardLeft{
+
+}
+
+#imgDirector{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.DCardRight{
+    line-height: 1.6;
+}
+.t3{
+    opacity: 60%;
+}
+
+.card-btn{
+    padding: 8px 16px;
+    background-color: white;
+    border: 2px solid #6F1AB6;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 30px;
+    color: #6F1AB6;
+}
+.card-btn:hover{
+    background-color: #6F1AB6;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.5s;
 }
